@@ -1,0 +1,1046 @@
+2020-12-29 09:35:58.276 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 32976 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 09:35:58.278 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 09:35:58.800 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 09:35:58.802 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 09:35:58.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 09:35:59.188 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 09:35:59.195 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 09:35:59.196 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 09:35:59.196 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 09:35:59.291 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 09:35:59.291 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 970 ms
+2020-12-29 09:36:00.273 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 09:36:00.290 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 09:36:00.298 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.686 seconds (JVM running for 3.589)
+2020-12-29 09:36:00.300 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 09:36:10.492 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 09:36:10.492 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 09:36:10.497 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-29 09:36:10.508 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 09:36:11.428 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 09:36:11.517 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 09:36:12.512 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 09:36:12.661 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 10:24:22.381 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 17440 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 10:24:22.383 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 10:24:22.943 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 10:24:22.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 10:24:22.970 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-12-29 10:24:23.325 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 10:24:23.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 10:24:23.333 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 10:24:23.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 10:24:23.448 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 10:24:23.448 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1018 ms
+2020-12-29 10:24:24.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 10:24:24.454 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 10:24:24.462 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.689 seconds (JVM running for 3.616)
+2020-12-29 10:24:24.464 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 10:24:26.764 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 10:24:26.764 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 10:24:26.768 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 10:24:26.778 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 10:24:27.760 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 10:24:27.845 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 10:24:28.785 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 10:24:29.028 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 10:24:30.891 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   GET
+2020-12-29 10:24:30.998 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   POST
+2020-12-29 10:24:31.588 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 10:24:31.664 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 10:24:48.802 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 10:24:48.822 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /error   GET
+2020-12-29 11:34:46.009 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 5236 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 11:34:46.012 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 11:34:46.594 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 11:34:46.596 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 11:34:46.618 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 11:34:46.989 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 11:34:46.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:34:46.996 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 11:34:46.997 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 11:34:47.107 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 11:34:47.107 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1050 ms
+2020-12-29 11:34:48.113 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:34:48.128 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 11:34:48.136 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.766 seconds (JVM running for 3.737)
+2020-12-29 11:34:48.138 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 11:34:51.030 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 11:34:51.031 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 11:34:51.035 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 11:34:51.045 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:34:52.162 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 11:34:52.242 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 11:34:53.184 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:34:53.433 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 11:34:55.035 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:34:55.068 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /error   GET
+2020-12-29 11:37:21.580 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 29844 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 11:37:21.583 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 11:37:22.327 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 11:37:22.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 11:37:22.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-12-29 11:37:22.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 11:37:22.798 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:37:22.798 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 11:37:22.798 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 11:37:22.904 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 11:37:22.904 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1271 ms
+2020-12-29 11:37:23.988 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:37:24.004 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 11:37:24.013 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.083 seconds (JVM running for 4.053)
+2020-12-29 11:37:24.014 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 11:37:26.258 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 11:37:26.258 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 11:37:26.264 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-29 11:37:26.274 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:37:27.328 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 11:37:27.410 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 11:37:28.393 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:37:28.634 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 11:37:29.904 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:37:29.966 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:37:43.407 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:37:43.448 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 11:37:45.083 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:13.376 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 7872 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 11:38:13.378 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 11:38:14.065 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 11:38:14.067 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 11:38:14.091 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 11:38:14.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 11:38:14.499 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:38:14.499 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 11:38:14.499 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 11:38:14.618 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 11:38:14.618 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1194 ms
+2020-12-29 11:38:15.658 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:38:15.675 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 11:38:15.684 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.306 seconds (JVM running for 4.598)
+2020-12-29 11:38:15.685 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 11:38:17.847 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 11:38:17.847 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 11:38:17.851 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 11:38:17.862 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:38:18.948 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 11:38:19.036 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 11:38:20.016 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:38:20.236 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 11:38:21.501 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 11:38:21.588 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 11:38:22.073 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:30.412 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:31.648 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:32.291 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:32.806 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:33.314 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:33.802 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:34.291 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:34.782 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:35.273 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:35.758 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:37.875 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:38:38.596 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:42:34.658 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 63764 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 11:42:34.661 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 11:42:35.324 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 11:42:35.326 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 11:42:35.349 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 11:42:35.718 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 11:42:35.726 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:42:35.726 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 11:42:35.727 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 11:42:35.855 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 11:42:35.855 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1140 ms
+2020-12-29 11:42:36.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 11:42:36.971 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 11:42:36.978 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.075 seconds (JVM running for 4.151)
+2020-12-29 11:42:36.980 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 11:42:38.691 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 11:42:38.692 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 11:42:38.696 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 11:42:38.704 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:42:39.864 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 11:42:39.950 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 11:42:40.955 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:42:41.287 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 11:42:50.480 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 11:42:50.530 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 11:42:52.062 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 11:42:52.257 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 11:43:02.641 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 11:43:06.722 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:01:48.194 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 62508 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 12:01:48.196 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 12:01:48.747 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 12:01:48.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 12:01:48.771 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-12-29 12:01:49.144 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 12:01:49.151 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 12:01:49.151 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 12:01:49.151 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 12:01:49.265 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 12:01:49.265 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1034 ms
+2020-12-29 12:01:50.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 12:01:50.293 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 12:01:50.302 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.724 seconds (JVM running for 3.659)
+2020-12-29 12:01:50.303 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 12:01:51.998 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 12:01:51.998 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 12:01:52.007 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-12-29 12:01:52.020 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 12:01:53.415 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 12:01:53.496 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 12:01:54.448 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 12:01:54.705 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 12:01:57.462 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 12:01:57.628 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:00.987 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:02.204 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:02.924 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:03.466 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:04.638 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:07.645 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 12:02:08.803 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 13:59:06.500 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 24984 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 13:59:06.502 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 13:59:07.174 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 13:59:07.175 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 13:59:07.197 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-12-29 13:59:07.554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 13:59:07.561 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 13:59:07.561 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 13:59:07.561 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 13:59:07.671 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 13:59:07.671 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+2020-12-29 13:59:08.658 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 13:59:08.673 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 13:59:08.680 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.003 seconds (JVM running for 3.974)
+2020-12-29 13:59:08.682 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 13:59:13.232 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 13:59:13.233 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 13:59:13.237 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 13:59:13.246 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 13:59:14.968 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 13:59:15.051 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 13:59:16.061 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 13:59:16.299 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 13:59:18.989 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 13:59:19.111 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 13:59:26.738 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   GET
+2020-12-29 13:59:42.283 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   POST
+2020-12-29 14:00:01.486 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:00:01.557 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:00:06.405 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:00:06.466 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:00:07.158 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   GET
+2020-12-29 14:00:22.767 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   POST
+2020-12-29 14:00:47.312 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 15828 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:00:47.316 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:00:47.993 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:00:47.995 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:00:48.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 14:00:48.396 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:00:48.403 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:00:48.403 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:00:48.403 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:00:48.521 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:00:48.522 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1142 ms
+2020-12-29 14:00:49.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:00:49.544 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:00:49.551 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.847 seconds (JVM running for 3.812)
+2020-12-29 14:00:49.553 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:00:56.979 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:00:56.980 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:00:56.985 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-29 14:00:56.995 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:00:58.018 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:00:58.104 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:00:59.057 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:00:59.268 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:01:01.474 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:01:01.558 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:02.413 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   GET
+2020-12-29 14:01:15.319 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   POST
+2020-12-29 14:01:16.180 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:01:16.260 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:17.762 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:17.828 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:01:18.932 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:18.948 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:01:19.719 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:19.735 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:01:38.594 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:39.338 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:01:39.972 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:02:26.673 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 21804 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:02:26.675 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:02:27.188 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:02:27.190 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:02:27.211 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 14:02:27.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:02:27.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:02:27.577 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:02:27.578 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:02:27.689 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:02:27.690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 981 ms
+2020-12-29 14:02:28.690 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:02:28.706 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:02:28.714 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.613 seconds (JVM running for 3.539)
+2020-12-29 14:02:28.716 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:02:43.810 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:02:43.810 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:02:43.816 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-29 14:02:43.827 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:02:44.821 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:02:44.905 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:02:45.876 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:02:46.099 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:02:47.700 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:02:47.789 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:02:47.825 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:03:12.118 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 26228 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:03:12.120 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:03:12.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:03:12.815 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:03:12.836 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-12-29 14:03:13.207 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:03:13.215 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:03:13.215 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:03:13.216 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:03:13.332 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:03:13.333 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1153 ms
+2020-12-29 14:03:14.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:03:14.364 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:03:14.372 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.076 seconds (JVM running for 3.981)
+2020-12-29 14:03:14.374 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:03:16.535 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:03:16.536 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:03:16.539 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-12-29 14:03:16.548 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:03:17.489 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:03:17.582 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:03:18.520 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:03:18.721 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:03:20.627 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:03:20.714 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:03:22.556 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:03:22.638 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:03:23.472 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:03:23.501 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:04:29.667 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:04:31.447 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:04:32.519 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:04:33.679 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:04:34.378 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:04:35.564 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:04:36.162 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:05:16.168 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 50224 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:05:16.171 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:05:16.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:05:16.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:05:16.930 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-12-29 14:05:17.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:05:17.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:05:17.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:05:17.406 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:05:17.524 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:05:17.524 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1304 ms
+2020-12-29 14:05:18.636 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:05:18.652 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:05:18.660 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.177 seconds (JVM running for 4.805)
+2020-12-29 14:05:18.662 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:05:25.222 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:05:25.222 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:05:25.226 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 14:05:25.236 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:05:26.489 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:05:26.573 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:05:27.510 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:05:27.734 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:05:29.290 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:05:29.385 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:05:30.568 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:05:30.646 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:05:31.468 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:05:31.484 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:05:32.092 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:05:32.122 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:05:53.729 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 29272 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:05:53.732 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:05:54.389 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:05:54.390 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:05:54.414 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 14:05:54.801 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:05:54.808 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:05:54.809 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:05:54.809 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:05:54.926 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:05:54.926 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+2020-12-29 14:05:55.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:05:55.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:05:55.962 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.94 seconds (JVM running for 3.913)
+2020-12-29 14:05:55.963 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:05:59.720 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:05:59.721 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:05:59.728 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-29 14:05:59.736 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:06:00.765 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:06:00.845 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:06:01.883 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:06:02.105 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:06:03.594 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:06:03.679 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:05.138 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:05.759 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:06.319 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:06.644 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:07.291 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:07.555 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:08.001 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:08.252 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:08.565 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:08.866 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:09.283 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:09.545 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:10.034 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:10.286 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:45.371 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:06:52.011 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:06:52.086 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:38.976 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 49004 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:07:38.980 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:07:39.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:07:39.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:07:39.656 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 14:07:40.030 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:07:40.037 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:07:40.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:07:40.037 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:07:40.147 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:07:40.147 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1117 ms
+2020-12-29 14:07:41.158 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:07:41.173 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:07:41.182 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.843 seconds (JVM running for 4.089)
+2020-12-29 14:07:41.183 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:07:43.163 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:07:43.166 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:07:43.176 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-12-29 14:07:43.194 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:07:44.065 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:07:44.143 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:07:45.075 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:07:45.293 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:07:46.851 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:07:46.938 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:48.739 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:49.170 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:51.073 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:51.260 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:51.433 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:07:51.605 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:08:27.400 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:08:27.435 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:08:28.345 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:08:28.378 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:08:29.676 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:08:29.730 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:13.632 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:09:13.701 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:09:15.487 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:09:15.613 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:16.514 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:16.973 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:17.234 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:17.408 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:17.581 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:17.760 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:17.937 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:21.896 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:22.060 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:23.337 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:23.493 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:25.332 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:26.794 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:28.182 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:09:36.842 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:10:42.972 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:10:43.022 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:10:44.850 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:10:44.905 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:28:59.686 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 62536 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:28:59.693 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:29:00.428 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:29:00.430 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:29:00.460 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-12-29 14:29:01.317 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:29:01.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:29:01.327 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:29:01.327 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:29:01.450 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:29:01.450 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1687 ms
+2020-12-29 14:29:02.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:29:02.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:29:02.624 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.871 seconds (JVM running for 4.896)
+2020-12-29 14:29:02.626 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:29:09.767 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:29:09.767 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:29:09.772 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-29 14:29:09.782 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:29:11.121 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:29:11.207 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:29:12.139 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:29:12.444 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:29:13.830 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 14:29:13.972 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 14:29:14.275 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:29:24.915 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:29:24.973 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:29:26.667 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:29:26.790 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:29:43.979 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:29:44.039 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:29:45.512 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:29:45.636 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:29:59.206 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:29:59.268 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:29:59.811 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:29:59.863 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:30:00.138 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:30:00.183 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:30:02.840 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 14:30:02.956 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 14:30:03.297 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:30:03.408 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:30:10.541 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:30:11.758 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:30:11.779 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:32:04.879 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:32:04.930 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:32:06.862 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:32:06.928 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:32:08.830 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:32:08.835 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:36:27.134 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 52668 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:36:27.139 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:36:27.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:36:27.851 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:36:27.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 14:36:28.284 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:36:28.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:36:28.291 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:36:28.292 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:36:28.399 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:36:28.400 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1209 ms
+2020-12-29 14:36:29.110 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-29 14:36:29.120 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-29 14:37:49.044 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 872 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:37:49.047 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:37:49.788 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:37:49.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:37:49.814 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 14:37:50.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:37:50.209 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:37:50.209 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:37:50.210 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:37:50.324 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:37:50.325 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1218 ms
+2020-12-29 14:37:51.019 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-29 14:37:51.034 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-29 14:38:58.596 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 1904 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:38:58.599 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:38:59.247 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:38:59.249 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:38:59.272 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 14:38:59.645 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:38:59.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:38:59.653 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:38:59.653 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:38:59.770 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:38:59.770 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1121 ms
+2020-12-29 14:39:00.404 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-29 14:39:00.414 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-29 14:39:38.524 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 3348 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:39:38.528 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:39:39.187 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:39:39.189 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:39:39.211 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 14:39:39.594 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:39:39.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:39:39.601 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:39:39.602 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:39:39.710 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:39:39.710 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1133 ms
+2020-12-29 14:39:40.709 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:39:40.725 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:39:40.733 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.895 seconds (JVM running for 3.819)
+2020-12-29 14:39:40.735 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:39:55.182 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 14400 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:39:55.186 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:39:55.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:39:55.876 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:39:55.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 14:39:56.284 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:39:56.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:39:56.291 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:39:56.292 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:39:56.412 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:39:56.412 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2020-12-29 14:39:56.995 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-29 14:39:57.005 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-29 14:41:16.408 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 46780 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:41:16.413 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:41:17.207 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:41:17.209 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:41:17.233 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 14:41:17.631 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:41:17.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:41:17.640 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:41:17.640 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:41:17.948 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:41:17.948 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1480 ms
+2020-12-29 14:41:19.891 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:41:19.908 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:41:19.916 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 4.241 seconds (JVM running for 5.173)
+2020-12-29 14:41:19.918 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:41:28.007 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:41:28.007 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:41:28.012 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-29 14:41:28.023 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:41:29.027 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:41:29.113 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:41:30.062 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:41:30.308 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:41:31.814 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:41:31.899 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:41:34.136 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:41:34.160 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:42:00.402 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 14:42:00.412 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:42:34.454 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:42:34.521 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:42:35.919 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:42:36.042 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:42:37.576 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:42:37.583 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:45:48.098 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:45:48.165 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:45:50.705 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:45:50.822 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:49:12.273 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:49:12.328 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:49:13.676 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:49:13.798 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:49:14.832 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:49:14.838 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:50:54.782 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:50:54.845 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:50:57.205 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:50:57.324 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:50:58.472 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:50:58.478 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:52:16.285 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:52:16.340 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:52:17.056 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:52:17.102 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:52:17.301 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:52:17.347 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:52:36.130 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:52:36.173 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:52:37.602 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:52:37.725 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:52:39.173 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:52:39.178 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 14:54:16.291 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:54:16.340 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:54:17.965 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:54:18.083 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:54:19.559 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:54:19.598 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:56:41.734 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 62136 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 14:56:41.737 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 14:56:42.485 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 14:56:42.488 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 14:56:42.516 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-12-29 14:56:42.932 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 14:56:42.940 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:56:42.941 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 14:56:42.941 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 14:56:43.058 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 14:56:43.059 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+2020-12-29 14:56:44.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 14:56:44.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 14:56:44.232 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.206 seconds (JVM running for 4.239)
+2020-12-29 14:56:44.234 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 14:56:48.964 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 14:56:48.964 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 14:56:48.971 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-29 14:56:48.981 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:56:50.390 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 14:56:50.476 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 14:56:51.436 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:56:51.669 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:56:53.062 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:56:53.216 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:56:54.946 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/modify   POST
+2020-12-29 14:56:54.981 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:01.897 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 14:57:01.926 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:03.679 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/enable   POST
+2020-12-29 14:57:03.707 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:06.400 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:07.069 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:07.836 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:08.328 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:09.011 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:09.483 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:09.922 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:10.270 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:10.810 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:11.358 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:12.278 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:12.496 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:12.835 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:13.049 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:13.259 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:13.414 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:13.580 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:13.742 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:13.892 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.038 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.173 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.334 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.490 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.629 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.753 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:14.927 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:15.084 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:15.241 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:15.398 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:15.531 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:15.956 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:16.130 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:16.317 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:16.479 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:16.753 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:16.940 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:17.076 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:17.236 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:17.385 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:17.574 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:17.693 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:17.853 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:18.009 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:49.283 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 14:57:49.324 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 14:57:51.193 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 14:57:51.260 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:55.170 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 14:57:55.216 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:55.575 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/enable   POST
+2020-12-29 14:57:55.597 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:56.009 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 14:57:56.038 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:56.377 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/enable   POST
+2020-12-29 14:57:56.396 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 14:57:57.103 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/delete   POST
+2020-12-29 14:57:57.122 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:20:51.583 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 55624 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 16:20:51.588 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 16:20:52.399 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 16:20:52.401 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 16:20:52.426 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 16:20:52.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 16:20:52.869 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:20:52.869 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 16:20:52.870 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 16:20:52.982 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 16:20:52.983 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+2020-12-29 16:20:54.060 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:20:54.077 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 16:20:54.084 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.507 seconds (JVM running for 4.714)
+2020-12-29 16:20:54.086 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 16:21:14.222 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 16:21:14.223 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 16:21:14.229 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-29 16:21:14.240 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:21:15.260 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 16:21:15.340 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 16:21:16.287 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:21:16.519 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:21:18.805 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   GET
+2020-12-29 16:21:18.862 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   POST
+2020-12-29 16:21:20.352 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /role/add   GET
+2020-12-29 16:21:20.418 [http-nio-8080-exec-6] INFO  com.yao.sys.controller.BaseController - menus : [{"desc":"平台管理","id":"1","menuLevel":0,"methodType":"","name":"平台管理","parentId":"","permission":"sys","permissionType":0,"privileges":[{"desc":"角色管理","id":"12","menuLevel":1,"methodType":"","name":"角色管理","parentId":"1","permission":"sys:role","permissionType":0,"privileges":[{"desc":"新增角色","id":"121","menuLevel":2,"methodType":"","name":"新增","parentId":"12","permission":"sys:role:add","permissionType":0,"privileges":[],"state":"1","url":"/role/add"},{"desc":"修改角色","id":"122","menuLevel":2,"methodType":"","name":"修改","parentId":"12","permission":"sys:role:modify","permissionType":0,"privileges":[],"state":"1","url":"/role/modify"},{"desc":"停用角色","id":"123","menuLevel":2,"methodType":"","name":"停用","parentId":"12","permission":"sys:role:disable","permissionType":0,"privileges":[],"state":"1","url":"/role/disable"},{"desc":"启用角色","id":"124","menuLevel":2,"methodType":"","name":"启用","parentId":"12","permission":"sys:role:enable","permissionType":0,"privileges":[],"state":"1","url":"/role/enable"},{"desc":"删除角色","id":"125","menuLevel":2,"methodType":"","name":"删除","parentId":"12","permission":"sys:role:delete","permissionType":0,"privileges":[],"state":"1","url":"/role/delete"}],"state":"1","url":"/role/index"},{"desc":"管理员管理","id":"13","menuLevel":1,"methodType":"","name":"管理员管理","parentId":"1","permission":"sys:manager","permissionType":0,"privileges":[{"desc":"新增管理员","id":"131","menuLevel":2,"methodType":"","name":"新增","parentId":"13","permission":"sys:manager:add","permissionType":0,"privileges":[],"state":"1","url":"/manager/add"},{"desc":"修改管理员","id":"132","menuLevel":2,"methodType":"","name":"修改","parentId":"13","permission":"sys:manager:modify","permissionType":0,"privileges":[],"state":"1","url":"/manager/modify"},{"desc":"修改管理员密码","id":"133","menuLevel":2,"methodType":"","name":"修改密码","parentId":"13","permission":"sys:manager:password","permissionType":0,"privileges":[],"state":"1","url":"/manager/password"},{"desc":"停用管理员","id":"134","menuLevel":2,"methodType":"","name":"停用","parentId":"13","permission":"sys:manager:disable","permissionType":0,"privileges":[],"state":"1","url":"/manager/disable"},{"desc":"启用管理员","id":"135","menuLevel":2,"methodType":"","name":"启用","parentId":"13","permission":"sys:manager:enable","permissionType":0,"privileges":[],"state":"1","url":"/manager/enable"},{"desc":"删除管理员","id":"136","menuLevel":2,"methodType":"","name":"删除","parentId":"13","permission":"sys:manager:delete","permissionType":0,"privileges":[],"state":"1","url":"/manager/delete"}],"state":"1","url":"/manager/index"},{"desc":"淘宝账号","id":"15","menuLevel":1,"methodType":"","name":"淘宝账号","parentId":"1","permission":"sys:tbAccount","permissionType":0,"privileges":[{"desc":"添加淘宝账号","id":"151","menuLevel":2,"methodType":"","name":"添加","parentId":"15","permission":"sys:tbAccount:add","permissionType":0,"privileges":[],"state":"1","url":"/tbAccount/add"},{"desc":"修改淘宝账号","id":"152","menuLevel":2,"methodType":"","name":"修改","parentId":"15","permission":"sys:tbAccount:modify","permissionType":0,"privileges":[],"state":"1","url":"/tbAccount/modify"},{"desc":"停用淘宝账号","id":"153","menuLevel":2,"methodType":"","name":"停用","parentId":"15","permission":"sys:tbAccount:disable","permissionType":0,"privileges":[],"state":"1","url":"/tbAccount/disable"},{"desc":"启用淘宝账号","id":"154","menuLevel":2,"methodType":"","name":"启用","parentId":"15","permission":"sys:tbAccount:enable","permissionType":0,"privileges":[],"state":"1","url":"/tbAccount/enable"},{"desc":"删除淘宝账号","id":"155","menuLevel":2,"methodType":"","name":"删除","parentId":"15","permission":"sys:tbAccount:delete","permissionType":0,"privileges":[],"state":"1","url":"/tbAccount/delete"}],"state":"1","url":"/tbAccount/index"}],"state":"1","url":""}]
+2020-12-29 16:21:49.069 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /role/add   POST
+2020-12-29 16:21:49.953 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   GET
+2020-12-29 16:21:50.055 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   POST
+2020-12-29 16:21:53.655 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:21:53.722 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:21:54.669 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:21:54.746 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:22:00.585 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:22:00.624 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:25:02.768 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:25:02.888 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:25:05.177 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   GET
+2020-12-29 16:25:05.220 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   POST
+2020-12-29 16:25:06.026 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:25:06.075 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:25:09.445 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:25:09.510 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:25:09.606 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:25:09.651 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:25:09.776 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:25:09.818 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:25:09.941 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:25:09.980 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:26:23.856 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:26:23.915 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:26:26.534 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:26:26.629 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:26:27.311 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/add   GET
+2020-12-29 16:26:54.847 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/add   POST
+2020-12-29 16:26:55.548 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:26:55.617 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:26:58.663 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /loginOut   GET
+2020-12-29 16:26:58.672 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:27:03.539 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:27:03.655 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:27:07.567 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:27:08.657 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   GET
+2020-12-29 16:27:09.559 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:09.611 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:11.427 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   GET
+2020-12-29 16:27:22.314 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/add   POST
+2020-12-29 16:27:23.040 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:23.093 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:28.499 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:28.554 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:28.727 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:28.774 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:29.136 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:29.173 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:30.023 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 16:27:30.044 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:30.486 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/enable   POST
+2020-12-29 16:27:30.504 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:33.650 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /loginOut   GET
+2020-12-29 16:27:33.655 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:27:36.312 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:27:36.426 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:27:38.031 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   GET
+2020-12-29 16:27:38.076 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /role/index   POST
+2020-12-29 16:27:38.440 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:27:38.486 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   POST
+2020-12-29 16:27:38.848 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:38.900 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:27:39.650 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 16:27:41.710 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/disable   POST
+2020-12-29 16:27:45.175 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /loginOut   GET
+2020-12-29 16:27:45.181 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:27:47.428 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:27:47.540 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:27:49.034 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /manager/index   GET
+2020-12-29 16:27:49.626 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:27:49.684 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:28:01.632 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:28:02.205 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:28:02.664 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:28:02.835 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:28:03.315 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:28:03.779 [http-nio-8080-exec-3] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:30:36.942 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 50844 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 16:30:36.947 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 16:30:37.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 16:30:37.687 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 16:30:37.712 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-12-29 16:30:38.124 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 16:30:38.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:30:38.132 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 16:30:38.132 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 16:30:38.256 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 16:30:38.257 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1233 ms
+2020-12-29 16:30:39.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:30:39.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 16:30:39.539 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.409 seconds (JVM running for 4.503)
+2020-12-29 16:30:39.541 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 16:30:44.510 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 16:30:44.510 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 16:30:44.514 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-12-29 16:30:44.523 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:30:45.459 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 16:30:45.544 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 16:30:46.485 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:30:46.700 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:30:48.317 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:30:48.394 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:31:04.781 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:31:04.865 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:31:59.702 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:32:44.580 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:35:31.929 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 44852 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 16:35:31.933 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 16:35:32.609 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 16:35:32.611 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 16:35:32.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-12-29 16:35:33.030 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 16:35:33.037 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:35:33.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 16:35:33.038 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 16:35:33.152 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 16:35:33.152 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1161 ms
+2020-12-29 16:35:34.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:35:34.205 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 16:35:34.214 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.989 seconds (JVM running for 4.048)
+2020-12-29 16:35:34.216 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 16:35:37.210 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 16:35:37.210 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 16:35:37.217 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-29 16:35:37.226 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:35:38.453 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 16:35:38.537 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 16:35:39.498 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:35:39.767 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:35:41.415 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:35:41.568 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:35:41.684 [http-nio-8080-exec-5] INFO  com.yao.sys.service.AccountService - models --->>> [{"agencyId":"1111","creOperDate":1609230442000,"creOperId":"1343835876420431872","creOperName":"测试员工2","id":"1343835991633768448","lastModOperDate":1609230450000,"lastModOperId":"1343835876420431872","lastModOperName":"测试员工2","loginId":"1084790527@qq.com","loginPass":"","state":"1","sysId":"1343835876420431872","sysName":"测试员工2"}]
+2020-12-29 16:36:53.991 [http-nio-8080-exec-8] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:36:54.125 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:36:55.751 [http-nio-8080-exec-9] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:36:55.877 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:36:55.896 [http-nio-8080-exec-1] INFO  com.yao.sys.service.AccountService - models --->>> [{"agencyId":"1111","creOperDate":1609230442000,"creOperId":"1343835876420431872","creOperName":"测试员工2","id":"1343835991633768448","lastModOperDate":1609230450000,"lastModOperId":"1343835876420431872","lastModOperName":"测试员工2","loginId":"1084790527@qq.com","loginPass":"","state":"1","sysId":"1343835876420431872","sysName":"测试员工2"}]
+2020-12-29 16:39:46.285 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 13012 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 16:39:46.289 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 16:39:47.016 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 16:39:47.018 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 16:39:47.047 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-12-29 16:39:47.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 16:39:47.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:39:47.438 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 16:39:47.438 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 16:39:47.552 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 16:39:47.552 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1196 ms
+2020-12-29 16:39:48.654 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:39:48.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 16:39:48.690 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.111 seconds (JVM running for 4.081)
+2020-12-29 16:39:48.693 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 16:39:50.169 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 16:39:50.169 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 16:39:50.174 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-29 16:39:50.184 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:39:52.184 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 16:39:52.270 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 16:39:53.222 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:39:53.428 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:39:54.440 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:39:54.530 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:44:13.020 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 27944 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 16:44:13.024 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 16:44:13.687 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 16:44:13.688 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 16:44:13.709 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 16:44:14.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 16:44:14.082 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:44:14.082 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 16:44:14.082 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 16:44:14.188 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 16:44:14.188 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1104 ms
+2020-12-29 16:44:15.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:44:15.320 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 16:44:15.329 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.931 seconds (JVM running for 3.877)
+2020-12-29 16:44:15.330 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 16:44:17.818 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 16:44:17.818 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 16:44:17.826 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-12-29 16:44:17.835 [http-nio-8080-exec-1] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:44:18.839 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 16:44:18.926 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 16:44:19.886 [http-nio-8080-exec-4] INFO  com.yao.sys.interceptor.SysInterceptor - /index   GET
+2020-12-29 16:44:20.099 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /welcome   GET
+2020-12-29 16:44:21.756 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   GET
+2020-12-29 16:44:21.836 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /tbAccount/index   POST
+2020-12-29 16:52:42.224 [http-nio-8080-exec-6] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 16:57:40.262 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 56604 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 16:57:40.265 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 16:57:41.113 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 16:57:41.117 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 16:57:41.146 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-12-29 16:57:41.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 16:57:41.618 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:57:41.619 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 16:57:41.619 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 16:57:41.759 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 16:57:41.759 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1433 ms
+2020-12-29 16:57:42.849 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 16:57:42.865 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 16:57:42.873 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 3.326 seconds (JVM running for 4.496)
+2020-12-29 16:57:42.874 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 16:57:52.357 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 16:57:52.357 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 16:57:52.361 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 16:57:52.384 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 16:57:52.464 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 16:58:57.222 [http-nio-8080-exec-7] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 17:08:57.225 [http-nio-8080-exec-10] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 17:18:57.237 [http-nio-8080-exec-2] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 17:22:47.113 [http-nio-8080-exec-5] INFO  com.yao.sys.interceptor.SysInterceptor - /error   POST
+2020-12-29 17:30:01.448 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 55276 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 17:30:01.453 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 17:30:02.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 17:30:02.091 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 17:30:02.113 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 17:30:02.481 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 17:30:02.488 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 17:30:02.488 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 17:30:02.489 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 17:30:02.601 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 17:30:02.601 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1076 ms
+2020-12-29 17:30:03.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 17:30:03.770 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 17:30:03.786 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.927 seconds (JVM running for 3.942)
+2020-12-29 17:30:03.791 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 17:30:18.236 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 17:30:18.237 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 17:30:18.240 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-12-29 17:30:18.263 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 17:30:18.340 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-29 17:37:31.932 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 59724 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 17:37:31.934 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 17:37:32.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 17:37:32.550 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 17:37:32.573 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-12-29 17:37:33.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 17:37:33.058 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 17:37:33.058 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 17:37:33.059 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 17:37:33.212 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 17:37:33.212 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1232 ms
+2020-12-29 17:37:39.533 [main] INFO  com.yao.sys.SysApplication - Starting SysApplication on VIPER with PID 60576 (D:\IdeaProjects\ht_tb_web\sys\target\classes started by 10847 in D:\IdeaProjects\ht_tb_web)
+2020-12-29 17:37:39.536 [main] INFO  com.yao.sys.SysApplication - The following profiles are active: dev
+2020-12-29 17:37:40.179 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-29 17:37:40.181 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-29 17:37:40.201 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-12-29 17:37:40.586 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-29 17:37:40.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-29 17:37:40.593 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 17:37:40.593 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-29 17:37:40.705 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring embedded WebApplicationContext
+2020-12-29 17:37:40.706 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1130 ms
+2020-12-29 17:37:41.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-29 17:37:41.749 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/httb'
+2020-12-29 17:37:41.758 [main] INFO  com.yao.sys.SysApplication - Started SysApplication in 2.886 seconds (JVM running for 3.84)
+2020-12-29 17:37:41.760 [main] INFO  com.yao.sys.SysApplication - ----------------------项目启动成功----------------------
+2020-12-29 17:37:54.509 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/httb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 17:37:54.509 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 17:37:54.513 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-29 17:37:54.536 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 17:37:54.612 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

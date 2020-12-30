@@ -8,13 +8,13 @@ management:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ht_tb_data?useUnicode=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/Xadmin2?useUnicode=true&useSSL=false&serverTimezone=UTC
     username: root
     password: wingzz00
   freemarker:
     suffix: .ftl
 #    templateEncoding: UTF-8
-    templateLoaderPath: file:D:/IdeaProjects/ht_tb_web/web_html/
+    templateLoaderPath: file:D:/IdeaProjects/Xadmin2/web_html/
     charset: UTF-8
     content-type: text/html;charset=UTF-8
 #    default_encoding: UTF-8

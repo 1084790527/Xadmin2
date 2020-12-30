@@ -1,27 +1,27 @@
 dev
-    location /httb {
+    location /sys {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_pass http://127.0.0.1:8080/httb;
     }
-    location /httb/assets/ {
-        alias D:/IdeaProjects/ht_tb_web/web_html/assets/;
+    location /sys/assets/ {
+        alias D:/IdeaProjects/Xadmin/web_html/assets/;
     }
-    location /httb/file/ {
-        alias D:/logs/ht_tb_web/temporary/;
+    location /sys/file/ {
+        alias D:/logs/Xadmin/temporary/;
     }
 
 prod
-    location /httb {
+    location /sys {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://127.0.0.1:8089/httb;
+        proxy_pass http://127.0.0.1:8089/sys;
     }
-    location /httb/assets/ {
-        alias /home/ht_tb_web/web_html/assets/;
+    location /sys/assets/ {
+        alias /home/Xadmin/web_html/assets/;
     }
-    location /httb/file/{
-        alias /home/ht_tb_web/temporary/;
+    location /sys/file/{
+        alias /home/Xadmin/temporary/;
     }
